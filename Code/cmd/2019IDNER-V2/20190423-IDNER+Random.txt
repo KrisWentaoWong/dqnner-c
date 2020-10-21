@@ -1,0 +1,143 @@
+不再问人
+############################################################################################# AKWS1News_E
+### PreInterv 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       33080  20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 0 None 0 0.0
+
+### PreInterv 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       33580 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.05
+
+### PreInterv 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       34080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### PreInterv 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       35080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.2
+
+### PreInterv 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       36080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.3
+
+
+### PreInterv 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       37080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.4
+
+### PreInterv 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       38080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### PreInterv 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       39080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.6
+
+### PreInterv 0.7
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       30080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.7
+
+### PreInterv 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       31080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.8
+
+### PreInterv 0.9
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       32080 20190427-IDNER+Random 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.9
+
+不再问人
+############################################################################################# CoNLLTest_RR
+### PreInterv 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       33081  20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 0 None 0 0.0
+
+### PreInterv 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       33581 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.05
+
+### PreInterv 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       34081 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### PreInterv 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       35081 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.2
+
+### PreInterv 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       36081 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.3
+
+### PreInterv 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       37081 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.4
+
+### PreInterv 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       38081 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### PreInterv 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       39082 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.6
+
+### PreInterv 0.7
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       40082 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.7
+
+### PreInterv 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       41082 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.8
+
+### PreInterv 0.9
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       42082 20190427-IDNER+Random 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.9
+
+不再问人
+############################################################################################# Ontonotes_EN_Sub_R
+### PreInterv 0
+# gamma=0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       33090 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 0 None 0 0
+# gamma=1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       33092 20190427-IDNER+Random 429 239 242 NER_C 20 20 1.0 4 0 None 0 0
+
+### PreInterv 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       33582 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.05
+
+### PreInterv 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       34082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### PreInterv 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       35082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.2
+
+### PreInterv 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       36082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.3
+
+### PreInterv 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       37082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.4
+
+### PreInterv 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       38082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### PreInterv 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       39082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.6
+
+### PreInterv 0.7
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       40082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.7
+
+### PreInterv 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       41082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.8
+
+### PreInterv 0.9
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       42082 20190427-IDNER+Random 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.9
+

@@ -1,0 +1,62 @@
+############################################################################################# AKWS1News_E
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E Bagging              28020 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E DT_J48               28030 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E RandomForest         28070 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       28080 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       29080 20190328-14-T7-IDNER-HC=0.1 7 108 NER_C 20 20 0.8 1
+
+############################################################################################# CoNLLTest_RR
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR Bagging              28120 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR DT_J48               28130 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR RandomForest         28170 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       28180 20190328-14-T7-IDNER 7 108 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       29180 20190328-14-T7-IDNER-HC=0.1 7 108 NER_C 20 20 0.8 1
+
+############################################################################################# Ontonotes_EN_Sub_R
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R Bagging              28320 20190328-14-T7-IDNER 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R DT_J48               28330 20190328-14-T7-IDNER 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R RandomForest         28370 20190328-14-T7-IDNER 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28380 20190328-14-T7-IDNER 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28480 20190328-14-T7-IDNER-HC=0.01 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29380 20190328-14-T7-IDNER-HC=0.1  7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29480 20190328-14-T7-IDNER-HC=0.11 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29880 20190328-14-T7-IDNER-HC=0.15 7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       30380 20190328-14-T7-IDNER-HC=0.2  7 242 NER_C 20 20 0.8 1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       32380 20190328-14-T7-IDNER-HC=0.4  7 242 NER_C 20 20 0.8 1

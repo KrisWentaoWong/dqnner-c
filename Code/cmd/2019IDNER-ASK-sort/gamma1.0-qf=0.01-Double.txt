@@ -1,0 +1,168 @@
+### HC = 0 #
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73080 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5   0.0 0 0 None 55
+
+### HC = 0.01 #
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73180 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.01 0 0 None 55
+
+### HC = 0.02
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73280 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.02 0 0 None 55
+
+### HC = 0.04
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73480 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.04 0 0 None 55
+
+### HC = 0.08
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73880 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.08 0 0 None 55
+
+### HC = 0.16
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       74680 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.16 0 0 None 55
+
+### HC = 0.24
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       75480 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.24 0 0 None 55
+
+### HC = 0.32
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       76280 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.32 0 0 None 55
+
+### HC = 0.64
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       79480 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  0.64 0 0 None 55
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       83080 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 108 108 NER_C 20 20 1.0 5  1.0  0 0 None 55
+
+
+############################################################################################# CoNLLTest_RR
+### HC = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43080  20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0 0 0
+
+### HC = 0.01
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73181 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.01 0 0 None 55
+
+### HC = 0.02
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73281 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.02 0 0 None 55
+
+### HC = 0.04
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73481 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.04 0 0 None 55
+
+### HC = 0.06
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73681 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.06 0 0 None 55
+
+### HC = 0.08
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73881 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.08 0 0 None 55
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       74081 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.1  0 0 None 55
+
+### HC = 0.12
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       74281 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.12 0 0 None 55
+
+### HC = 0.16
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       74681 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.16 0 0 None 55
+
+### HC = 0.18
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       74881 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.18 0 0 None 55
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       75081 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.2  0 0 None 55
+
+### HC = 0.24
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       75481 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.24 0 0 None 55
+
+### HC = 0.32
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       76281 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.32 0 0 None 55
+
+### HC = 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       77081 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.4  0 0 None 55
+
+### HC = 0.64
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       79481 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 0.64 0 0 None 55
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       83081 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 149 149 NER_C 20 20 1.0 5 1.0 0 0 None 55
+
+
+
+############################################################################################# Ontonotes_EN_Sub_R
+### HC = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43080  20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0 0 0
+
+### HC = 0.01
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       73182 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.01 0 0 None 55
+
+### HC = 0.02
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       73282 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.02 0 0 None 55
+
+### HC = 0.04
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       73482 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.04 0 0 None 55
+
+### HC = 0.06
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       73682 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.06 0 0 None 55
+
+### HC = 0.08
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       73882 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.08 0 0 None 55
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       74082 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.1 0 0 None 55
+
+### HC = 0.12
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       74282 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.12 0 0 None 55
+
+### HC = 0.16
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       74682 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.16 0 0 None 55
+
+### HC = 0.18
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       74882 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.18 0 0 None 55
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       75082 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.2  0 0 None 55
+
+### HC = 0.24
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       75482 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.24 0 0 None 55
+
+### HC = 0.32
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       76282 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.32 0 0 None 55
+
+### HC = 0.64
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       79482 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 0.64 0 0 None 55
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       83082 20190917-IDNER+ASK-gamma=1.0-qf=0.01-sort-T7-Double 429 239 242 NER_C 20 20 1.0 5 1.0 0 0 None 55

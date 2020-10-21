@@ -1,0 +1,73 @@
+修改：在进入每个mention前，对mentionsByQuery重新进行排序，因为其中有些元素，已经被人标过了
+原因：将人标的元素提前，有利于被选择到，作为当前mention重要的参考
+############################################################################################# AKWS1News_E
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E Bagging              28020 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E DT_J48               28030 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E RandomForest         28070 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       28080 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       39080 20190411-IDNER 20 108 NER_C 20 20 0.8 4 0.1 0
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       39180 20190411-IDNER 20 108 NER_C 20 20 0.8 4 0.1 0.01
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       40180 20190411-IDNER 20 108 NER_C 20 20 0.8 4 0.2 0.01
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       40180 20190411-IDNER 20 108 NER_C 20 20 1 4 0.2 0.01
+
+############################################################################################# CoNLLTest_RR
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR Bagging              28120 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR DT_J48               28130 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR RandomForest         28170 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       28180 20190411-IDNER 20 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       29180 20190411-IDNER-HC=0.1 20 108 NER_C 20 20 0.8 4
+
+############################################################################################# Ontonotes_EN_Sub_R
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R Bagging              28320 20190411-IDNER 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R DT_J48               28330 20190411-IDNER 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R RandomForest         28370 20190411-IDNER 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28380 20190411-IDNER 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28480 20190411-IDNER-HC=0.01 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29380 20190411-IDNER-HC=0.1  20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29480 20190411-IDNER-HC=0.11 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29880 20190411-IDNER-HC=0.15 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       30380 20190411-IDNER-HC=0.2  20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       32380 20190411-IDNER-HC=0.4  20 242 NER_C 20 20 0.8 4

@@ -1,0 +1,138 @@
+不再问人
+############################################################################################# AKWS1News_E
+### PreInterv 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73080  20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 0 None 0 0.0
+
+### PreInterv 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       63580 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 0.05 0 0
+
+### PreInterv 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       64080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### PreInterv 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       65080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 0.2 0 0
+
+### PreInterv 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       66080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 0.3 0 0
+
+### PreInterv 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       77080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.4
+
+### PreInterv 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       78080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### PreInterv 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       79080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.6
+
+### PreInterv 0.7
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       80080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.7
+
+### PreInterv 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       81080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.8
+
+### PreInterv 0.9
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       82080 20190423-IDNER+Pos+PerLocOrg 429 108 108 NER_C 20 20 0.8 4 None 0 0 0.9
+
+不再问人
+############################################################################################# CoNLLTest_RR
+### PreInterv 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73081  20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 0 None 0 0.0
+
+### PreInterv 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       73581 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.05
+
+### PreInterv 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       74081 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### PreInterv 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       35081 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.2
+
+### PreInterv 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       36081 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.3
+
+### PreInterv 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       37081 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.4
+
+### PreInterv 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       38081 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### PreInterv 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       39082 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.6
+
+### PreInterv 0.7
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       40082 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.7
+
+### PreInterv 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       41082 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.8
+
+### PreInterv 0.9
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       42082 20190423-IDNER+Pos+PerLocOrg 429 149 149 NER_C 20 20 0.8 4 None 0 0 0.9
+
+不再问人
+############################################################################################# Ontonotes_EN_Sub_R
+### PreInterv 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       33082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 0 None 0 0
+
+### PreInterv 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       33582 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.05
+
+### PreInterv 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       34082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### PreInterv 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       35082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.2
+
+### PreInterv 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       36082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.3
+
+### PreInterv 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       37082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.4
+
+### PreInterv 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       38082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### PreInterv 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       39082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.6
+
+### PreInterv 0.7
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       40082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.7
+
+### PreInterv 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       41082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.8
+
+### PreInterv 0.9
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       42082 20190427-IDNER+Pos+PerLocOrg 429 239 242 NER_C 20 20 0.8 4 None 0 0 0.9
+

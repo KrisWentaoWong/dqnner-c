@@ -1,0 +1,190 @@
+不再问人
+############################################################################################# AKWS1News_E
+### HC = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       63080  20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0 None 0 0.0
+
+### HC = 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       63580 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.05 0 0
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       64080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 None 0 0 0.1
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       65080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.2 0 0
+
+### HC = 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       66080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.3 0 0
+
+### HC = 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       67080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.4 0 0
+
+### HC = 0.5
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       68080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 None 0 0 0.5
+
+### HC = 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       69080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.6 0 0
+
+### HC = 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       71080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.8 0 0
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73080 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 1.0 0 0
+
+修改108为test文档数
+############################################################################################# CoNLLTest_RR
+### HC = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0 0 0
+
+### HC = 0.001
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43091 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.001 0 0
+
+### HC = 0.01
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43181 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.01 0 0
+
+### HC = 0.02
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43281 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.02 0 0
+
+### HC = 0.03
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43381 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.03 0 0
+
+### HC = 0.04
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43481 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.04 0 0
+
+### HC = 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43581 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.05 0 0
+
+### HC = 0.06
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43681 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.06 0 0
+
+### HC = 0.07
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43781 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.07 0 0
+
+### HC = 0.08
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43881 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.08 0 0
+
+### HC = 0.09
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       43981 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.09 0 0
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       44081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.1 0 0
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       45081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.2 0 0
+
+### HC = 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       46081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.3 0 0
+
+### HC = 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       47081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.4 0 0
+
+### HC = 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       49081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.6 0 0
+
+### HC = 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       51081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.8 0 0
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       53081 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 1.0 0 0
+
+
+修改108为test文档数
+############################################################################################# Ontonotes_EN_Sub_R
+### HC = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0 0 0
+
+### HC = 0.001
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43092 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.001 0 0
+
+### HC = 0.01
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43182 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.01 0 0
+
+### HC = 0.02
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43282 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.02 0 0
+
+### HC = 0.03
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43382 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.03 0 0
+
+### HC = 0.04
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43482 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.04 0 0
+
+### HC = 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43582 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.05 0 0
+
+### HC = 0.06
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43682 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.06 0 0
+
+### HC = 0.07
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43782 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.07 0 0
+
+### HC = 0.08
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43882 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.08 0 0
+
+### HC = 0.09
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       43982 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.09 0 0
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       44082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.1 0 0
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       45082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.2 0 0
+
+### HC = 0.3
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       46082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.3 0 0
+
+### HC = 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       47082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.4 0 0
+
+### HC = 0.6
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       49082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.6 0 0
+
+### HC = 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       51082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 0.8 0 0
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       53082 20190423-IDNER+Pos 411 108 NER_C 20 20 0.8 4 1.0 0 0

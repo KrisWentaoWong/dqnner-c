@@ -1,0 +1,116 @@
+修改：在状态中增加了实体类别
+原因：提供更多信息，便于agent选择动作
+############################################################################################# AKWS1News_E
+
+### HC = 0
+# ARS = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43080  20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0 0 0
+# ARS = 1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43180  20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0 0 1
+
+### HC = 0.001
+# ARS = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43090 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.001 0 0
+# ARS = 1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43190 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.001 0 1
+
+### HC = 0.01
+# ARS = 0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43180 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.01 0 0
+# ARS = 1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43280 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.01 0 1
+
+### HC = 0.02
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43280 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.02 0
+
+### HC = 0.05
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       43580 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.05 0
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       44180 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.05 0.01
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       44080 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.1 0 0.0
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       44090 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.1 0 0.1
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       44180 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.1 0 1.0
+
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       45080 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.2 0
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       40180 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.2 0.01
+
+### HC = 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       47080 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.4 0
+
+### HC = 0.8
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       51080 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.8 0
+
+### HC = 1.0
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       53080 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4 0.8 0
+
+
+############################################################################################# CoNLLTest_RR
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR Bagging              28120 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR DT_J48               28130 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR RandomForest         28170 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       28180 20190412-IDNER-STATE-PLON 28 108 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       29180 20190412-IDNER-STATE-PLON-HC=0.1 20 108 NER_C 20 20 0.8 4
+
+############################################################################################# Ontonotes_EN_Sub_R
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R Bagging              28320 20190412-IDNER-STATE-PLON 28 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R DT_J48               28330 20190412-IDNER-STATE-PLON 28 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R RandomForest         28370 20190412-IDNER-STATE-PLON 28 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28380 20190412-IDNER-STATE-PLON 28 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28480 20190412-IDNER-STATE-PLON-HC=0.01 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29380 20190412-IDNER-STATE-PLON-HC=0.1  20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29480 20190412-IDNER-STATE-PLON-HC=0.11 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29880 20190412-IDNER-STATE-PLON-HC=0.15 20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       30380 20190412-IDNER-STATE-PLON-HC=0.2  20 242 NER_C 20 20 0.8 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       32380 20190412-IDNER-STATE-PLON-HC=0.4  20 242 NER_C 20 20 0.8 4

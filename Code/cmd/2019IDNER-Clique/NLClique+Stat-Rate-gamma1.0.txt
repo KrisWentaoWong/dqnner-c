@@ -1,0 +1,63 @@
+### HC = 0.04
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       73480 20190917-IDNER+ASK+NLClique+Stat 455 1580 1562 NER_C 20 20 1.0 5 0.04 0 0 None
+
+### HC = 0.1
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       74080 20190917-IDNER+ASK+NLClique+Stat 455 1580 1562 NER_C 20 20 1.0 5 0.1 0 0 None
+
+### HC = 0.2
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       75080 20190917-IDNER+ASK+NLClique+Stat 455 1580 1562 NER_C 20 20 1.0 5 0.2 0 0 None
+
+### HC = 0.4
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh AKWS1News_E SVM_LibSVM_RBF       77080 20190917-IDNER+ASK+NLClique+Stat 455 1580 1562 NER_C 20 20 1.0 5 0.4 0 0 None
+
+
+############################################################################################# CoNLLTest_RR
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR Bagging              28120 20190917-IDNER+ASK+NLClique+Stat 455 3326 3245 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR DT_J48               28130 20190917-IDNER+ASK+NLClique+Stat 455 3326 3245 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR RandomForest         28170 20190917-IDNER+ASK+NLClique+Stat 455 3326 3245 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       28180 20190917-IDNER+ASK+NLClique+Stat 455 3326 3245 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh CoNLLTest_RR SVM_LibSVM_RBF       29180 20190917-IDNER+ASK+NLClique+Stat-HC=0.1 20 3326 3245 NER_C 20 20 1.0 4
+
+############################################################################################# Ontonotes_EN_Sub_R
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R Bagging              28320 20190917-IDNER+ASK+NLClique+Stat 455 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R DT_J48               28330 20190917-IDNER+ASK+NLClique+Stat 455 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R RandomForest         28370 20190917-IDNER+ASK+NLClique+Stat 455 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28380 20190917-IDNER+ASK+NLClique+Stat 455 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       28480 20190917-IDNER+ASK+NLClique+Stat-HC=0.01 20 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29380 20190917-IDNER+ASK+NLClique+Stat-HC=0.1  20 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29480 20190917-IDNER+ASK+NLClique+Stat-HC=0.11 20 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       29880 20190917-IDNER+ASK+NLClique+Stat-HC=0.15 20 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       30380 20190917-IDNER+ASK+NLClique+Stat-HC=0.2  20 242 NER_C 20 20 1.0 4
+
+cd ~/dqnner-c/Code/code/dqn
+./run_cpu.sh Ontonotes_EN_Sub_R SVM_LibSVM_RBF       32380 20190917-IDNER+ASK+NLClique+Stat-HC=0.4  20 242 NER_C 20 20 1.0 4
